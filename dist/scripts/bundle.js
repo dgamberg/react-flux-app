@@ -29087,8 +29087,8 @@ var Header = React.createClass({displayName: "Header",
         return (
            React.createElement("nav", {className: "navbar navbar-default"}, 
                React.createElement("div", {className: "container-fluid"}, 
-
                    React.createElement("ul", {className: "nav navbar-nav"}, 
+                       React.createElement("li", null, React.createElement("img", {src: "images/pluralsight-logo.png"})), 
                        React.createElement("li", null, React.createElement("a", {href: "/#home"}, "Home")), 
                        React.createElement("li", null, React.createElement("a", {href: "/#about"}, "About"))
                    )
