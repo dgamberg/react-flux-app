@@ -3,7 +3,8 @@
 var React = require('react');
 var AuthorApi = require('../../api/authorApi');
 var AuthorList = require('./authorList');
-var Link = require('react-router').Link;
+var Router = require('react-router');
+var Link = Router.Link;
 
 
 var AuthorPage = React.createClass({
